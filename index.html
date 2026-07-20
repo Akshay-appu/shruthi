@@ -141,7 +141,56 @@
                 </div>
             </nav>
 
+            <!-- Carousel Mobile Height Fix -->
+<style>
+@media (max-width: 768px) {
+    .header-carousel .header-carousel-item,
+    .header-carousel .header-carousel-item img {
+        height: 50vh !important;
+        min-height: 280px !important;
+        object-fit: cover !important;
+    }
 
+    .header-carousel .carousel-caption {
+        padding: 10px !important;
+    }
+
+    .header-carousel .carousel-caption h1 {
+        font-size: 1.4rem !important;
+        margin-bottom: 8px !important;
+    }
+
+    .header-carousel .carousel-caption h5 {
+        font-size: 0.65rem !important;
+        margin-bottom: 6px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .header-carousel .carousel-caption p {
+        display: none !important;
+    }
+
+    .header-carousel .carousel-caption .btn {
+        padding: 8px 20px !important;
+        font-size: 13px !important;
+    }
+
+    .header-carousel .owl-nav .owl-prev {
+        left: 6px !important;
+        width: 34px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+
+    .header-carousel .owl-nav .owl-next {
+        right: 6px !important;
+        width: 34px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+}
+</style>
+<!-- Carousel Start -->
             <!-- Carousel Start -->
             <div class="header-carousel owl-carousel">
                 <div class="header-carousel-item">
